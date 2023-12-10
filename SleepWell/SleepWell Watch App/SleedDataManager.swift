@@ -38,7 +38,7 @@ class SleepDataManager {
         return UserDefaults.standard.data(forKey: key)
     }
 
-    // Add more methods as needed for additional types of data
+    
 }
 
 
