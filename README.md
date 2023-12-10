@@ -1,7 +1,7 @@
 # SleepWell - Sleep Analysis Application
 
 ## Overview
-This repository is the result of an independent study conducted during the fall 2023 semester, led by Dr. Kurz and Dr. Springer, with Liam Propst as the student undertaking the project. The project began with a focus on "Embedded Machine Learning (EML)" and evolved into the development of a smartwatch application, "SleepWell". The app aims to provide insights into the wearer's sleep by tracking various metrics using Apple Watch sensors.
+This repository contains the work from an independent study undertaken during the fall 2023 semester at Chapman University. Led by Dr. Kurz and Dr. Springer, the project was a collaboration with student researcher Liam Propst. Initially focused on "Embedded Machine Learning (EML)", the study evolved into the development of "SleepWell", a smartwatch application designed to provide insights into the wearer's sleep patterns using Apple Watch sensors. Throughout the semester, several meetings were held to maintain guidelines and structure, ensuring the project remained focused and productive. This research represents an intersection of technology, health, and academic inquiry, contributing to the growing field of wearable technology in health monitoring.
 
 ## Repository Structure
 
@@ -19,6 +19,4 @@ This repository is the result of an independent study conducted during the fall 
 
 ## Contributions
 This project is the culmination of collaborative efforts between academia and student research. Contributions, suggestions, and feedback are welcome to further the development and effectiveness of the SleepWell application.
-
-
 

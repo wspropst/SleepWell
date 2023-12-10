@@ -3,6 +3,37 @@
 ## Overview
 SleepWell is a smartwatch application designed to leverage advanced sensor capabilities for monitoring and enhancing sleep quality. The app collects physiological data, analyzes sleep patterns, and provides personalized recommendations.
 
+Authors:
+Liam Propst | 2346086
+
+## Getting Started
+
+### Prerequisites
+- **Xcode**: Ensure you have the latest version of Xcode installed on your Mac. Xcode is required to develop and test watchOS applications.
+- **Apple Watch Simulator or Device**: To run and test the application, you will need either an Apple Watch or the simulator provided within Xcode.
+
+### Installation
+1. **Clone the Repository**: First, clone the SleepWell repository to your local machine using Git, or download it as a ZIP file and extract it.
+2. **Open the Project in Xcode**:
+   - Navigate to the `SleepWell` directory.
+   - Double-click the `SleepWell.xcodeproj` file to open the project in Xcode.
+
+### Running the Application
+- **In the Simulator**:
+  - Select the desired Apple Watch simulator from the device dropdown menu in Xcode.
+  - Click the 'Run' button (play icon) in the top-left corner of Xcode to build and run the application on the simulator.
+- **On a Physical Device**:
+  - Ensure your Apple Watch is paired with your development machine.
+  - Select your device from the device dropdown menu in Xcode.
+  - Click the 'Run' button to build and run the application on your Apple Watch.
+
+## Application Structure
+- **WelcomeView.swift**: Initial view showing the SleepWell logo and navigation.
+- **ContentView.swift**: Main dashboard view displaying summarized sleep data and navigation to the heart rate chart.
+- **HeartRateChartView.swift**: View showing a graphical representation of heart rate data.
+- **HealthStore.swift**: Manages interactions with HealthKit, including data requests and authorization.
+- **SleepDataManager.swift**: Handles data storage and retrieval.
+
 ## Features
 - Interactive user interface for easy navigation.
 - Collection of physiological data from Apple Watch sensors.
