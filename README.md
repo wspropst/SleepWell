@@ -3,6 +3,11 @@
 ## Overview
 This repository contains the work from an independent study undertaken during the fall 2023 semester at Chapman University. Led by Dr. Kurz and Dr. Springer, the project was a collaboration with student researcher Liam Propst. Initially focused on "Embedded Machine Learning (EML)", the study evolved into the development of "SleepWell", a smartwatch application designed to provide insights into the wearer's sleep patterns using Apple Watch sensors. Throughout the semester, several meetings were held to maintain guidelines and structure, ensuring the project remained focused and productive. This research represents an intersection of technology, health, and academic inquiry, contributing to the growing field of wearable technology in health monitoring.
 
+## IMPORTANT
+When cloning this repo please make sure you have lfs installed
+* `brew install git-lfs`
+* `git lfs clone url-for-repo`
+
 ## Repository Structure
 
 - `/research`
