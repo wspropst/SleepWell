@@ -8,12 +8,37 @@
 import Foundation
 
 class SleepDataManager {
-    func saveSleepData(sleepDuration: Double) {
-        UserDefaults.standard.set(sleepDuration, forKey: "LastSleepDuration")
+    // Store sleep data
+    func saveSleepData(sleepData: [String: Any], forKey key: String) {
+        UserDefaults.standard.set(sleepData, forKey: key)
     }
 
-    func getSleepData() -> Double {
-        return UserDefaults.standard.double(forKey: "LastSleepDuration")
+    // Retrieve sleep data
+    func getSleepData(forKey key: String) -> [String: Any]? {
+        return UserDefaults.standard.dictionary(forKey: key)
     }
+
+    // Store heart rate data
+    func saveHeartRateData(heartRateData: [String: Any], forKey key: String) {
+        UserDefaults.standard.set(heartRateData, forKey: key)
+    }
+
+    // Retrieve heart rate data
+    func getHeartRateData(forKey key: String) -> [String: Any]? {
+        return UserDefaults.standard.dictionary(forKey: key)
+    }
+
+    // Store chart data (assuming charts are stored as images or serialized data)
+    func saveChartData(chartData: Data, forKey key: String) {
+        UserDefaults.standard.set(chartData, forKey: key)
+    }
+
+    // Retrieve chart data
+    func getChartData(forKey key: String) -> Data? {
+        return UserDefaults.standard.data(forKey: key)
+    }
+
+    // Add more methods as needed for additional types of data
 }
+
 
